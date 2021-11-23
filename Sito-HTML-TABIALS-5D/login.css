@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	position: relative;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(img/bg2.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	transition: 0, 5s;
+}
+section .container {
+	position: relative;
+	width: 800px;
+	height: 500px;
+	background: white;
+	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+section .container .loginuserbx {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+section .container .loginuserbx .imgbx {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	transition: 0, 5s;
+}
+section .container .loginuserbx .imgbx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+section .container .loginuserbx .formbx {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	transition: 0, 5;
+}
+section .container .loginuserbx .formbx h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+	color: black;
+	font-family: 'Rampart One', cursive;
+}
+
+.homelg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+section .container .loginuserbx .formbx input {
+	width: 100%;
+	padding: 10px;
+	background: #383f6b;
+	color: white;
+	border: none;
+	outline: none;
+	box-shadow: white;
+	font-size: 14px;
+	margin: 8px 0;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+section .container .loginuserbx .formbx input[type="submit"] {
+	max-width: 100px;
+	background: #7dccab;
+	color: black;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: 0, 5s;
+	font-family: 'Rampart One', cursive;
+}
+
+section .container .loginuserbx .formbx .login {
+	position: relative;
+	margin-top: 20px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: 'Roboto';
+}
+section .container .loginuserbx .formbx .login a {
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+section .container .loginuserbx .formbx .loginuserbx {
+	font-weight: 600;
+	text-decoration: none;
+	color: gray;
+}
